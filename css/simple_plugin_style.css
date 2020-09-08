@@ -1,0 +1,78 @@
+.alert {
+    position: absolute;
+    margin-top: 400px;
+    opacity: 0.5;
+    margin-left: 100px;
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+.sc-form-wrapper {
+    /* Size & position */
+    width: 300px;
+    margin: 60px auto 30px;
+    padding: 10px;
+    position: relative; /* For the submit button positioning */
+
+    /* Styles */
+    box-shadow:
+            0 0 1px rgba(0, 0, 0, 0.3),
+            0 3px 7px rgba(0, 0, 0, 0.3),
+            inset 0 1px rgba(255,255,255,1),
+            inset 0 -3px 2px rgba(0,0,0,0.25);
+    border-radius: 5px;
+    background: white; /* Fallback */
+    background: -moz-linear-gradient(#eeefef, #ffffff 10%);
+    background: -ms-linear-gradient(#eeefef, #ffffff 10%);
+    background: -o-linear-gradient(#eeefef, #ffffff 10%);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeefef), color-stop(0.1, #ffffff));
+    background: -webkit-linear-gradient(#eeefef, #ffffff 10%);
+    background: linear-gradient(#eeefef, #ffffff 10%);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sc-form-wrapper .submit {
+    background: rgb(28, 184, 65);
+    margin-top: 20px;
+    border-radius: 10px;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.input-field {
+    border-radius: 10px !important;
+    outline: none;
+}
+
+.submit-wrapper {
+    text-align: center;
+}
+
+.sc-form-content {
+    margin-top: 30px;
+}
+
+.simple-plugin-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.simple-plugin-table td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.simple-table-wrapper {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.simple-plugin-table thead tr th,
+.simple-plugin-table tbody tr td {
+    padding: 20px;
+}
